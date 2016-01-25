@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>EmacsでScala開発をしている話</title>
+    <title>A story developing Scala with Emacs</title>
     <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
     <meta name="author" content="Bartek Szopka" />
 
@@ -20,159 +20,165 @@
 </div>
 <div id="impress">
     <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
-        <q>EmacsでScala開発をしている話</q>
+        <q>A story developing Scala with Emacs</q>
     </div>
 
     <div class="step slide" data-x="0" data-y="-1500">
-      <q>自己紹介</q>
+      <q>Who are you?</q>
     </div>
 
     <div class="step slide" data-x="1000" data-y="-1500">
-      <q style="margin-top: 0px; margin-bottom: 30px; line-height: 0%;"><span style="color: red; font-weight: bold;">shigemk2</span> でググってください</q>
-      <q style="margin-top: 100px; margin-bottom: 30px; line-height: 0%;">某shigemk2ブログ 毎日更新</q>
-      <q style="margin-top: 100px; margin-bottom: 30px; line-height: 0%;">最近転職した</q>
-      <q style="margin-top: 100px; margin-bottom: 30px; line-height: 0%;">EmacsでScalaを書いている</q>
+      <q style="margin-top: 0px; margin-bottom: 30px; line-height: 0%;">Google <span style="color: red; font-weight: bold;">shigemk2</span></q>
+      <q style="margin-top: 100px; margin-bottom: 30px; line-height: 0%;">I post a blog entry every day on http://www.shigemk2.com</q>
+      <q style="margin-top: 100px; margin-bottom: 30px; line-height: 0%;">Recently, I changed job on Cyber Z</q>
+      <q style="margin-top: 100px; margin-bottom: 30px; line-height: 0%;">I am a stone cold paranoid android writing Scala with Emacs</q>
+      <q style="margin-top: 100px; margin-bottom: 30px; line-height: 0%;">My hobby is banging the drum and a certain manga artist is my acquaintance of acquaintance.</q>
       <img width="300" height="300" src="./img/shigemk2.jpg" />
     </div>
 
     <div class="step slide" data-x="2000" data-y="-1500">
-      <q style="font-size: 120%; line-height: 0;">発表資料です</q>
+      <q style="font-size: 120%; line-height: 0;">This is briefing paper</q>
       <q style="font-size: 80%; letter-spacing: 3px;"></q>
     </div>
 
     <div class="step slide" data-x="3000" data-y="-1500">
-      <q>Scalaでの開発をEmacsでやっていて消耗している話をします</q>
+      <q>I'm talking about exhausting myself by Emacs</q>
     </div>
 
     <div class="step slide" data-x="4000" data-y="-1500">
-      <q>Scala開発はだいたいIDEという風潮 というか常識</q>
+      <q>Common sense most Scala developpers use IDE.</q>
     </div>
 
     <div class="step slide" data-x="5000" data-y="-1500">
-      <q>これを覆したい…</q>
+      <q>I want to beat this...</q>
     </div>
 
     <div class="step slide" data-x="6000" data-y="-1500">
-      <q>という意図はありません</q>
-      <q>達人プログラマーに則った開発手法</q>
+      <q>It's not my purpose.</q>
+      <q>This is just my hobby, way of life.</q>
+      <q>The Pragmatic Programmer</q>
     </div>
 
     <div class="step slide" data-x="7000" data-y="-1500">
-      <q>マシンで消耗</q>
+      <q>Let's talk!!</q>
     </div>
 
     <div class="step slide" data-x="8000" data-y="-1500">
-      <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">Fedora時代(2013/12-2015/9)</q>
-      <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">Fedora20</q>
-      <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">ThinkPad X201</q>
-      <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">CPU: Intel Core i5</q>
-      <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">メモリ: 4GB</q>
-      <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">某所で買ったジャンク品</q>
+      <q>Exhausted by machine</q>
     </div>
 
     <div class="step slide" data-x="9000" data-y="-1500">
-      <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">Mac時代(2015/9-)</q>
-      <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">Mac OSX Yosemite</q>
-      <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">MacBook Pro 2011</q>
+      <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">Fedora Era(2013/12-2015/9)</q>
+      <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">Fedora20</q>
+      <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">ThinkPad X201</q>
       <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">CPU: Intel Core i5</q>
-      <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">メモリ: 16GB(8GBから増設)</q>
-      <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">やっぱり古い</q>
+      <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">Memory: 4GB</q>
+      <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">Junk item I bought in Akihabara</q>
     </div>
 
     <div class="step slide" data-x="10000" data-y="-1500">
-      <q>なぜMacに移行したか</q>
+      <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">Macbook Era(2015/9-)</q>
+      <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">Mac OSX Yosemite</q>
+      <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">MacBook Pro 2011</q>
+      <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">CPU: Intel Core i5</q>
+      <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">Memory: 16GB(From 8GB)</q>
+      <q style="font-size: 45px; margin-top: 0px; margin-bottom: 30px; line-height: 1;">This is an old machine</q>
     </div>
 
     <div class="step slide" data-x="11000" data-y="-1500">
-      <q>貧弱マシンの受難</q>
-      <q>ScalaでEmacsを書いているから</q>
+      <q>Why did I change my machine from ThinkPad to OLD Macbook</q>
     </div>
 
     <div class="step slide" data-x="12000" data-y="-1500">
-      <q>貧弱マシンの受難</q>
-      <q>Scalaビルド→CPUの温度が上がりすぎてマシンが落ちる</q>
+      <q>The passion of weak machine</q>
+      <q>Stone cold paranoid android developping Scala with Emacs</q>
     </div>
 
     <div class="step slide" data-x="13000" data-y="-1500">
-      <q>貧弱マシンの受難</q>
-      <q>ENSIME起動→CPUの温度が上がりすぎてマシンが落ちる</q>
+      <q>The passion of weak spec machine</q>
+      <q>My computer crashed when building Scala source code because of CPU's heat.</q>
     </div>
 
     <div class="step slide" data-x="14000" data-y="-1500">
-      <q>泣いた</q>
+      <q>The passion of weak spec machine</q>
+      <q>My computer crashed when starting ENSIME source code because of CPU's heat.</q>
     </div>
 
     <div class="step slide" data-x="15000" data-y="-1500">
-      <q>お金がなかったので、とりあえず持っていた古い(でもスペックの高い)マシンに乗り換えることにした</q>
+      <q>WTF!! OMG!!</q>
     </div>
 
     <div class="step slide" data-x="16000" data-y="-1500">
-      <q>ほとんど使っていなかったので、TimeMachineも使わずにMacを初期化</q>
+      <q>お金がなかったので、とりあえず持っていた古い(でもスペックの高い)マシンに乗り換えることにした</q>
     </div>
 
     <div class="step slide" data-x="17000" data-y="-1500">
-      <q>ENSIMEを使っても落ちない</q>
+      <q>ほとんど使っていなかったので、TimeMachineも使わずにMacを初期化</q>
     </div>
 
     <div class="step slide" data-x="18000" data-y="-1500">
-      <q>$ ant clean build</q>
+      <q>ENSIMEを使っても落ちない</q>
     </div>
 
     <div class="step slide" data-x="19000" data-y="-1500">
-      <q>Scala開発のときは、スペックの高いマシンを使いましょう</q>
+      <q>$ ant clean build</q>
     </div>
 
     <div class="step slide" data-x="20000" data-y="-1500">
-      <q>ENSIMEについて</q>
+      <q>Scala開発のときは、スペックの高いマシンを使いましょう</q>
     </div>
 
     <div class="step slide" data-x="21000" data-y="-1500">
-      <q>Emacs使いでScala使いならやっぱり基本</q>
+      <q>ENSIMEについて</q>
     </div>
 
     <div class="step slide" data-x="22000" data-y="-1500">
-      <q>https://github.com/ensime/ensime-emacs</q>
+      <q>Emacs使いでScala使いならやっぱり基本</q>
     </div>
 
     <div class="step slide" data-x="23000" data-y="-1500">
-      <q>他のあったら是非</q>
+      <q>https://github.com/ensime/ensime-emacs</q>
     </div>
 
     <div class="step slide" data-x="24000" data-y="-1500">
+      <q>他のあったら是非</q>
+    </div>
+
+    <div class="step slide" data-x="25000" data-y="-1500">
       <q>インストール</q>
       <q>melpaとかCaskとかから</q>
     </div>
 
-    <div class="step slide" data-x="25000" data-y="-1500">
+    <div class="step slide" data-x="26000" data-y="-1500">
       <q>インストール</q>
       <q>check that sbt is on your PATH</q>
       <q>https://github.com/ensime/ensime-server/issues/670</q>
     </div>
 
-    <div class="step slide" data-x="26000" data-y="-1500">
+    <div class="step slide" data-x="27000" data-y="-1500">
       <q>でかいリポジトリ</q>
       <q>ときたまENSIME起動でフリーズ</q>
       <q>ちょいちょいキルプロセス</q>
     </div>
 
-    <div class="step slide" data-x="27000" data-y="-1500">
+    <div class="step slide" data-x="28000" data-y="-1500">
       <q>ensime-inspect-type-at-pointで落ちる</q>
       <q>→Emacs25から24にバージョンを落とした</q>
     </div>
 
-    <div class="step slide" data-x="28000" data-y="-1500">
+    <div class="step slide" data-x="29000" data-y="-1500">
       <q>定義ジャンプはとても便利</q>
     </div>
 
-    <div class="step slide" data-x="29000" data-y="-1500">
+    <div class="step slide" data-x="30000" data-y="-1500">
       <q>コンパイルエラーが出るのも便利</q>
     </div>
 
-    <div class="step slide" data-x="30000" data-y="-1500">
+    <div class="step slide" data-x="31000" data-y="-1500">
       <q>auto completionある</q>
     </div>
 
-    <div class="step slide" data-x="31000" data-y="-1500">
+    <div class="step slide" data-x="32000" data-y="-1500">
       <q>終わり</q>
     </div>
 
